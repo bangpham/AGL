@@ -204,39 +204,9 @@
       margin-bottom: 20px;
       color: #27ae60;
   }
-  .slideanim {
-  	   padding-left: 40px;
-  	   padding-right: 40px;
-  	   padding-bottom: 60px;
 
-  	  visibility:hidden;
-  	}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
+  .feature-row {
+  	padding: 0px 30px 60px 30px;
   }
 
 
