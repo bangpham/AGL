@@ -218,7 +218,6 @@
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <script>
 var myCenter = new google.maps.LatLng(33.748995, -84.387982);
-
 function initialize() {
 var mapProp = {
   center:myCenter,
@@ -227,16 +226,12 @@ var mapProp = {
   draggable:false,
   mapTypeId:google.maps.MapTypeId.ROADMAP
   };
-
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
 var marker = new google.maps.Marker({
   position:myCenter,
   });
-
 marker.setMap(map);
 }
-
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
@@ -254,9 +249,7 @@ $(document).ready(function(){
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       event.preventDefault();
-
       var hash = this.hash;
-
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
@@ -266,7 +259,6 @@ $(document).ready(function(){
     } // End if
   });
   
-
   $(function(){
     var header = $('.jumbotron');
     $(window).scroll(function(){
@@ -277,7 +269,6 @@ $(document).ready(function(){
         }
     });  
   })
-
   $(function(){
     var header = $('.navbar');
     $(window).scroll(function(){
@@ -288,13 +279,10 @@ $(document).ready(function(){
         }
     });  
   })
-
   $('.search').hover(function() {
-
   });
 })
 </script>
 
 </body>
 </html>
-
